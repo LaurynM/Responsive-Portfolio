@@ -248,13 +248,59 @@ footer {
 	float: left;
 	padding-right: 10px;
 	padding-bottom: 10px;
+	}
 }
-}
-
 @media screen and (max-width:768px){
+	.content{
+		/*725-(2*30padding)-(2*2border)=586px*/
+		width: 661px;
+		margin: 42px 20px 20px 20px;
+	}
+	.social{
+		width: 681px;
+		margin: 20px 20px 40px 20px;
+	}
 	
 }
 
-@media screen and (max-width:9640px){
-	
+
+@media screen and (max-width:640px){
+	.content{
+		/*600-(2*30padding)-(2*2border)=536px*/
+		width: 536px;
+	}
+	header{
+		border: none;
+	}
+	#container{
+		width:100%;
+		background-color: goldenrod;
+	}
+	#name {
+		clear: both;
+		float: none;
+		margin: auto;
+		width: 310px;
+
+	}
+	.links {
+		clear: both;
+		float: none;
+		width: 300px;
+		margin: auto;
+	}
+	.content h1 {
+		font-size: 200%
+	}
+	#headshot {
+	width: 536px;
+	height: 804px;
+	float: left;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	}
+	.social{
+		width: 556px;
+		margin: 20px 20px 40px 20px;
+	}
 }
