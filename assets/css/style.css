@@ -308,7 +308,7 @@ footer {
 	.content{
 		/*600-(2*30padding)-(2*2border)=536px
 		/*width: 536px;*/
-		width: 80%;
+		width: 70%;
 	}
 	header{
 		border: none;
@@ -334,9 +334,8 @@ footer {
 		font-size: 200%
 	}
 	#headshot {
-/* 	width: 536px; */
-/* 	height: 804px; */
-	width: 70%;
+	width: 100%;
+	height: auto%;
 	float: left;
 	padding-right: 0px;
 	padding-bottom: 10px;
