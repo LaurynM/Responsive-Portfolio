@@ -334,8 +334,9 @@ footer {
 		font-size: 200%
 	}
 	#headshot {
-	width: 536px;
-	height: 804px;
+/* 	width: 536px; */
+/* 	height: 804px; */
+	width: 70%;
 	float: left;
 	padding-right: 0px;
 	padding-bottom: 10px;
